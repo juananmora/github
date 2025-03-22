@@ -1,7 +1,7 @@
 # Índice de Documentación
 
 ## Planes de Instalación y Configuración
-1. [Plan de Instalación GitHub Enterprise Cloud](/home/ubuntu/github_installation_plans/cloud/plan_instalacion_github_enterprise_cloud.md)
+1. [Plan de Instalación GitHub Enterprise Cloud](/github_installation_plans/cloud/plan_instalacion_github_enterprise_cloud.md)
 2. [Plan de Instalación GitHub Enterprise Server](/home/ubuntu/github_installation_plans/server/plan_instalacion_github_enterprise_server.md)
 
 ## Diagramas de Gantt
