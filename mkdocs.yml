@@ -1,0 +1,112 @@
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | This is the main file used by MkDocs to build the pages.                                               |
+# | It contains a lot of information and settings for you to read and use.                                 |
+# | Comments may contain "Read More" URLs to more in-depth documentation about the option for you to read. |
+# |                                                                                                        |
+# | You can check out https://www.mkdocs.org/user-guide/configuration/ for a more detailed explanation of  |
+# | all the options MkDocs offers by default.                                                              |
+# |                                                                                                        |
+# +------------------------------------------------- NOTE -------------------------------------------------+
+# |                                                                                                        |
+# | Some of the options listed here are only available through the usage of Material for MkDocs.           |
+# | Those options will usually have a link to the docs of this Theme and also mention "Material" as name.  |
+# | The actual name of the theme is "Material for MkDocs" and "Material" is used for simplicity reasons.   |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | Main Page Settings for MkDocs.                                                                         |
+# | Those settings are site name, site description, Site author and also Site URL (Canonical URL)          |
+# |                                                                                                        |
+# | Read More:                                                                                             |
+# | - https://www.mkdocs.org/user-guide/configuration/#site_name                                           |
+# | - https://www.mkdocs.org/user-guide/configuration/#site_description                                    |
+# | - https://www.mkdocs.org/user-guide/configuration/#site_author                                         |
+# | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+site_name: My Docs
+site_description: 'Documentation for the project'
+site_author: 'Your Name'
+
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | The base folder to use.                                                                                |
+# | Any Markdown files you put into this folder will be turned into a static HTML page once you build or   |
+# | publish your page.                                                                                     |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+docs_dir: docs
+
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | Navigation settings for MkDocs.                                                                        |
+# | Define the structure of your documentation here.                                                       |
+# |                                                                                                        |
+# | Read More:                                                                                             |
+# | - https://www.mkdocs.org/user-guide/configuration/#documentation-layout                                |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+nav:
+  - Home: index.md
+  - Índice: indice.md
+  - Normativa Española GitHub: normativa_espanola_github.md
+  - Cloud:
+      - Capacidades GitHub Enterprise Cloud: cloud/capacidades_github_enterprise_cloud.md
+      - GitHub Cumplimiento Normativo: cloud/github_cumplimiento_normativo.md
+      - GitHub Enterprise Cloud Info: cloud/github_enterprise_cloud_info.md
+      - GitHub Enterprise Cloud Security: cloud/github_enterprise_cloud_security.md
+      - Plan Instalación GitHub Enterprise Cloud: cloud/plan_instalacion_github_enterprise_cloud.md
+  - Comparativa:
+      - Comparativa Detallada GitHub Enterprise: comparativa/comparativa_detallada_github_enterprise.md
+      - Documento Comparativo: comparativa/documento_comparativo.md
+      - Tabla Comparativa: comparativa/tabla_comparativa.md
+  - Gantt:
+      - Gantt GitHub Enterprise Cloud: gantt/gantt_github_enterprise_cloud.md
+      - Gantt GitHub Enterprise Server: gantt/gantt_github_enterprise_server.md
+  - Migración Bitbucket GitHub:
+      - Índice: migracion_bitbucket_github/indice.md
+      - Gantt:
+          - Diagrama Gantt Migración: migracion_bitbucket_github/gantt/diagrama_gantt_migracion.md
+      - Plan:
+          - Plan Detallado Migración: migracion_bitbucket_github/plan/plan_detallado_migracion.md
+          - Roles y Responsabilidades: migracion_bitbucket_github/plan/roles_y_responsabilidades.md
+  - Misc:
+      - Todo: misc/todo.md
+  - Server:
+      - Capacidades GitHub Enterprise Server: server/capacidades_github_enterprise_server.md
+      - GitHub Enterprise Server Info: server/github_enterprise_server_info.md
+      - GitHub Enterprise Server Security: server/github_enterprise_server_security.md
+      - Plan Instalación GitHub Enterprise Server: server/plan_instalacion_github_enterprise_server.md
+
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | Theme settings for MkDocs.                                                                             |
+# | Define the theme and its options here.                                                                 |
+# |                                                                                                        |
+# | Read More:                                                                                             |
+# | - https://squidfunk.github.io/mkdocs-material/getting-started/                                         |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+theme:
+  name: material
+  features:
+    - content.code.annotate
+
+# +--------------------------------------------------------------------------------------------------------+
+# |                                                                                                        |
+# | Markdown extensions for MkDocs.                                                                       |
+# | Add additional functionality to your Markdown files.                                                   |
+# |                                                                                                        |
+# | Read More:                                                                                             |
+# | - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions                                 |
+# |                                                                                                        |
+# +--------------------------------------------------------------------------------------------------------+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
