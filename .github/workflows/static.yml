@@ -5,7 +5,7 @@
 # Remember to have a requirements.txt file with the required dependencies.
 # This template ships with one by default.
 #
-# It is also recommended to also copy the template with all branches, to
+# It is also recommended to also copy the templattretertree with all branches, to
 # have the gh-pages branch pre-made. This prevents possible errors.
 #
 name: Deploy Site
