@@ -15,7 +15,7 @@ on:
     paths: 
     - 'docs/**'
     - 'mkdocs.yml'
-     branches:
+    branches:
     - main
     #
     # If your repository would have releases should you uncomment the below lines
