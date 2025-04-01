@@ -1,17 +1,32 @@
-# Welcome to MkDocs
+# Índice de Documentación
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Planes de Instalación y Configuración
+1. [Plan de Instalación GitHub Enterprise Cloud](/cloud/plan_instalacion_github_enterprise_cloud.md)
+2. [Plan de Instalación GitHub Enterprise Server](/server/plan_instalacion_github_enterprise_server.md)
 
-## Commands
+## Diagramas de Gantt
+1. [Diagrama de Gantt GitHub Enterprise Cloud](/gantt/gantt_github_enterprise_cloud.md)
+2. [Diagrama de Gantt GitHub Enterprise Server](/gantt/gantt_github_enterprise_server.md)
+3. [Diagrama de Gantt Migración Bitbucket a GitHub](/migracion_bitbucket_github/gantt/diagrama_gantt_migracion.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Información Comparativa
+Los siguientes documentos contienen información comparativa entre GitHub Enterprise Cloud y Server:
+- [Documento Comparativo](/comparativa/documento_comparativo.md)
+- [Tabla Comparativa](/comparativa/tabla_comparativa.md)
+- [Cumplimiento Normativo](/comparativa/github_cumplimiento_normativo.md)
+- [Normativa Española](/comparativa/normativa_espanola_github.md)
+- [Comparativa Detallada GitHub Enterprise](/comparativa/comparativa_detallada_github_enterprise.md)
 
-## Project layout
+## Información Detallada por Producto
+- [GitHub Enterprise Cloud - Información General](/github_enterprise_cloud_info.md)
+- [GitHub Enterprise Cloud - Seguridad](/github_enterprise_cloud_security.md)
+- [GitHub Enterprise Server - Información General](/github_enterprise_server_info.md)
+- [GitHub Enterprise Server - Seguridad](/github_enterprise_server_security.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Migración de Bitbucket a GitHub
+- [Índice de Migración](/migracion_bitbucket_github/indice.md)
+- [Plan Detallado de Migración](/migracion_bitbucket_github/plan/plan_detallado_migracion.md)
+- [Roles y Responsabilidades](/migracion_bitbucket_github/plan/roles_y_responsabilidades.md)
+
+## Otros Documentos
+- [Tareas Pendientes](/todo.md)
